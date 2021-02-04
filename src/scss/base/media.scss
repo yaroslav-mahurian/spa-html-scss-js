@@ -1,0 +1,594 @@
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+    .team-card__socials {
+        bottom: 25px;
+    }
+    .team-card__person {
+        height: 171px;
+        padding-bottom: 87px;
+        box-shadow: 0 15px 30px rgba(48, 56, 59, 0.1);
+    }
+
+    .services__gallery-hover {
+        opacity: 1;
+        background-color: rgba(255, 129, 126, 0.6);
+    }
+
+    
+
+}
+
+@media (max-width: 1600px) {
+    .intro {
+        background-position: right center;
+    }
+
+    .appointment__wrapper {
+        width: 100%;
+        padding-right: 50px;
+    }
+
+    .app-form {
+        margin-right: 0;
+        flex-direction: column;
+    } 
+
+    .app-form__input, .app-form-wrapper, .select {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .btn--app {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+
+    .intro__header {
+        font-size: 14px;
+    }
+
+    .intro__slogan {
+        margin-top: 30px;
+        font-size: 52px;
+    }
+
+    .intro__text {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 13px;
+    }
+
+    .intro__links {
+        justify-content: center;
+    }
+
+    .about__header {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .procedures {
+        padding-top: 100px;
+    }
+
+    .procedures__cards, .blog__cards {
+        margin: 0 auto;
+        margin-top: 75px;
+        max-width: 750px;
+        
+
+        justify-content: space-between;
+    }
+
+    .card {
+        &--procedures, &--blog {
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+    }
+
+    .team {
+        margin-top: 110px;
+    }
+
+    .team-cards {
+        margin: 0 auto;
+        margin-top: 75px;
+        max-width: 750px;
+    }
+
+    .team-card {
+        margin-bottom: 30px;
+    }
+
+    .appointment {
+        margin-top: 120px;
+        flex-direction: column;
+    }
+
+    .appointment__photo {
+        display: none;
+    }
+
+    .appointment__content {
+        padding: 132px 0;
+    }
+
+    .appointment__wrapper {
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .btn--app {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog {
+        margin-top: 100px;
+    }
+
+    .services__gallery-icon {
+        width: 40px;
+    }
+
+    .services__gallery-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .intro {
+        min-height: 650px;
+        padding-top: 60px;
+    }
+
+    .intro__header {
+        margin-top: 95px;
+    }
+
+    .header {
+        width: 100%;
+        height: 60px;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+
+        -webkit-box-shadow: 0px 9px 16px -7px rgba(0,0,0,0.1); 
+        box-shadow: 0px 9px 16px -7px rgba(0,0,0,0.1);
+        
+        background-color: white;
+    }
+
+    .header__logo {
+        margin-right: 0;
+    }
+
+    .header__logo img {
+        width: 60px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav--header {
+        display: block;
+        width: 50%;
+        padding: 40px;
+
+        position: absolute;
+        top: 60px;
+        right: -100%;
+        z-index: 500;
+
+        background-color: #fff;
+        box-shadow: -15px 15px 15px 0px rgba(0,0,0,0.1);
+
+        transition: all .3s  linear;
+
+        .nav__list {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .nav__item {
+            margin-right: 0;
+        } 
+
+        .nav__link {
+            display: block;
+            padding: 20px;
+            font-size: 16px;
+        }
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    .subtitle {
+        max-width: 650px;
+    }
+
+    .services {
+        margin-top: 100px;
+    }
+
+    .procedures {
+        padding: 90px 0;
+    }
+
+    .procedures__cards, .blog__cards {
+        margin-top: 60px;
+        max-width: none;
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews__wrapper {
+        padding: 0 50px;
+    }
+
+    .appointment {
+        margin-top: 85px;
+    }
+
+    .appointment__content {
+        padding: 85px 0;
+    }
+
+    .services__gallery-icon {
+        width: 30px;
+    }
+
+    .services__gallery-text {
+        font-size: 16px;
+    }
+
+    .contact {
+        padding-top: 90px;
+    }
+
+    .contact__wrapper {
+        padding: 0;
+    }
+
+    .contact-form {
+        margin-left: 70px;
+    }
+
+    .footer {
+        margin-top: 90px;
+        padding: 75px 0;
+    }
+
+    .footer__logo {
+        width: 90px;
+        margin-bottom: 25px;
+    }
+
+    .footer__socials {
+        margin: 25px auto;
+    }
+
+    .modal {
+        width: 420px;
+        height: 262px;
+    }
+
+    .modal__img {
+        margin-top: -25px;
+    }
+
+    .modal__text {
+        font-size: 20px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+/*----------- 767 -------- px */
+
+@media (max-width: 767px) {
+
+    .intro {
+        min-height: 600px;
+    }
+
+    .intro__header {
+        margin-top: 60px;
+    }
+    
+    .about {
+        padding-top: 140px;
+        background: url(../img/about/bg-pink-flower.png) 95% 40% no-repeat,
+        url(../img/about/bg-red-flower.png) 13% 0% no-repeat;
+        text-align: center;
+    }
+
+    .services {
+        margin-top: 80px;
+    }
+
+    .services__gallery {
+        padding: 0 30px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .services__gallery-сard {
+        width: 49%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .services {
+        margin-top: 80px;
+    }
+
+    .team {
+        margin-top: 90px;
+    }
+
+    .team-cards {
+        margin-top: 65px;
+        max-width: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .intro {
+        padding-top: 60px;
+    }
+
+    .intro__header {
+        font-size: 13px;  
+    }
+
+    .intro__text {
+        font-size: 13px;
+    }
+
+    .intro__slogan {
+        font-size: 35px;
+    }
+
+    .intro__links {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        flex-flow: column-reverse;
+    }
+
+    .intro__btn {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+
+    .about {
+        padding-top: 100px;
+        background: url(../img/about/bg-pink-flower.png) 95% 9% / 15% no-repeat,
+        url(../img/about/bg-red-flower.png) 3% 35% / 15% no-repeat;
+        text-align: center;
+    }
+
+    .about__logo {
+        width: 60px;
+    }
+
+    .about__header {
+        font-size: 13px;
+    }
+
+    .about__content {
+        margin-bottom: 30px;
+    } 
+
+    .title {
+        font-size: 27px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        max-width: 350px;
+    }
+
+    .services__gallery {
+        padding: 0 50px;
+    }
+
+    .services__gallery-сard {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .services__gallery-icon {
+        width: 50px;
+    }
+
+    .services__gallery-text {
+        font-size: 20px;
+    }
+
+    .card {
+        padding-bottom: 30px;
+        &--procedures, &--blog {
+            width: 280px;
+
+            & img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .card__title {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .card_desc {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        font-size: 12px;
+    }
+
+    .btn--card {
+        font-size: 12px;
+    }
+
+    .procedures {
+        padding: 45px 0;
+    }
+
+    .procedures__cards {
+        margin-top: 45px;
+    }
+
+    .reviews {
+        padding: 60px 0;
+        min-height: 0;
+    }
+
+    .reviews__wrapper {
+        padding: 0 20px;
+    }
+
+    .review__quote-icon {
+        width: 40px;
+    }
+    
+    .review__text {
+        margin: 25px 0;
+
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .review__author {
+        font-size: 18px;
+    }
+
+    .review-pagination {
+        margin-top: 45px;
+    }
+
+    .team-cards {
+        padding: 0 20px;
+    }
+
+    .team-card__person {
+        width: 100%;
+    }
+
+    .app-form__input, .app-form-wrapper, .select__current {
+        &::placeholder {
+            font-size: 10px;
+        }
+    
+        font-size: 10px;
+    }
+
+    .btn--app {
+        padding: 20px 20px;
+        max-width: 200px;
+        font-size: 12px;
+    }
+
+    .blog {
+        margin-top: 45px;
+    }
+
+    .contact {
+        padding-top: 75px;
+    }
+
+    .contact__wrapper {
+        margin-top: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form__wrapper {
+        margin: 0 auto;
+        max-width: 280px;   
+    }
+
+    .contact-form {
+        margin-top: 60px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .btn--contact {
+        margin-top: 20px;
+    }
+
+    .footer__logo {
+        width: 75px;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+
+    .modal {
+        width: 280px;
+        height: 250px;
+        padding: 15px;
+        
+    }
+
+    .modal__text {
+        font-size: 14px;
+    }
+
+    .btn--modal {
+        padding: 15px 35px;
+    }
+
+    .button-up {
+        bottom: 25px;
+        right: 25px;
+    }
+}

@@ -1,0 +1,31 @@
+.button-up {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    
+    background-color: $base-color;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all .1s linear;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    
+    &:hover {
+        background-color: darken($base-color, 5%);
+        box-shadow: rgba(4, 10, 50, 0.1) 0px 15px 40px;
+    }
+
+    & img {
+        width: 50%;
+        height: 50%;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

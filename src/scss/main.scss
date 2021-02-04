@@ -1,0 +1,84 @@
+@import "libs/fonts";
+@import "libs/swiper";
+@import "libs/navigation";
+@import "libs/pagination";
+@import "base/variables";
+@import "base/mixins";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
+
+@import "blocks/intro";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/about";
+@import "blocks/titles";
+@import "blocks/btn";
+@import "blocks/services";
+@import "blocks/procedures";
+@import "blocks/card";
+@import "blocks/reviews";
+@import "blocks/review";
+@import "blocks/team";
+@import "blocks/team-cards";
+@import "blocks/appointment";
+@import "blocks/app-form";
+@import "blocks/blog";
+@import "blocks/contact";
+@import "blocks/contact-form";
+@import "blocks/footer";
+@import "blocks/copyright";
+@import "blocks/select";
+@import "blocks/modal";
+@import "blocks/button-up";
+@import "blocks/notifications";
+
+/* Media */
+@import "base/media";
+
+.hidden {
+    display: none;
+}
+
+.active-header-menu {
+    right: 0;
+}
+
+.active {
+    display: block;
+}
+
+.input-error {
+    border-color: red;
+    
+    &::placeholder {
+        color: red;
+    }
+}

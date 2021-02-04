@@ -1,0 +1,76 @@
+.app-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app-form__input {
+    margin-right: 20px;
+    padding: 18px 0;
+    width: 320px;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $form-border-color;
+
+    color: #333;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+
+    &:nth-child(even) {
+        margin-right: 0;
+    }
+
+    &::placeholder {
+        color: #999999;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    &:focus {
+        outline: none;
+        border-bottom: 1px solid #000;
+    }
+
+    &--notes {
+        margin-top: 74px;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    &--number {
+        
+        &::-webkit-inner-spin-button,
+        ::-webkit-outer-spin-button {
+            appearance: none;
+        }
+    }
+    
+    &--icon-style {
+        padding-right: 13px;
+    }
+
+    &--icon-style + img {
+        margin-right: 0;
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: 2;
+        transform: translateY(-50%);
+    } 
+
+}
+
+.app-form-wrapper {
+    width: 320px;
+    position: relative;
+    margin-right: 20px;
+
+    &:nth-child(even) {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,35 @@
+.footer {
+    margin-top: 140px;
+    padding: 100px 0;
+    background: url(../img/footer/footer-bg.png) center center / cover no-repeat;
+    text-align: center;
+}
+
+.footer__logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.footer__socials {
+    margin: 50px auto;
+}
+
+.footer__socials-link {
+    margin-right: 15px;
+    padding-right: 14px;
+    border-right: 1px solid #b1b4bb;
+
+    color: #3a414e;
+
+    transition: color .1s linear;
+
+    &:hover {
+        color: $base-color;
+    }
+
+    &:last-child {
+        border-right: none;
+        margin-right: 0;
+    }
+}

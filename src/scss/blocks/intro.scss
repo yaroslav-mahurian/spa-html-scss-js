@@ -1,0 +1,111 @@
+.intro {
+    width: 100%;
+    min-height: 949px;
+
+    background: url(../img/intro/bg-fl.png) left center / cover no-repeat, url(../img/intro/bg-p.png) right center / cover no-repeat;
+}
+
+.intro__header {
+    margin-top: 195px;
+
+    color: #ff817e;
+    font-family: Rufina;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.intro__slogan {
+    margin-top: 40px;
+    color: #1e2528;
+    font-family: Rufina;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.intro__text {
+    margin-top: 47px;
+    max-width: 500px;
+    color: #555555;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.intro__links {
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.intro__btn {
+    display: block;
+    padding: 20px 32px;
+    margin-right: 55px;
+
+    background-color: #ff817e;
+
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .1s linear, box-shadow .1s linear;
+
+    &:hover {
+        background-color: darken($base-color, 5%);
+        box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.43);
+    }
+
+    & img {
+        margin-left: 10px;
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.intro__watch-btn {
+    text-decoration: none;
+    color: #555555;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        text-decoration: underline;
+
+        .play {
+            box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.43);
+        }
+    }
+
+    
+}
+
+.play {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    margin-right: 15px;
+
+    color: $base-color;
+    border-radius: 50%;
+    background-color: #fcf5ee;
+    border: none;
+
+    position: relative;
+    transition: box-shadow .1s linear;
+
+
+
+    & i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+}

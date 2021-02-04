@@ -1,0 +1,74 @@
+.select {
+    width: 320px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.select.is-active {
+
+    .select__body {
+        display: block;
+    }
+}
+
+.select__header {
+    border-bottom: 1px solid $form-border-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.select__current {
+    padding: 18px 0;
+
+    font-size: 18px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.select__icon-img {
+    margin-left: auto;
+
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.select__body {
+    display: none;
+    background: #fff;
+
+    border: 1px solid #ccc;
+    border-top: none;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    font-size: 18px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.select__item {
+    padding: 18px 10px;
+    cursor: pointer;
+}
+
+.select__item:hover {
+    background-color: #f2f2f2;
+}

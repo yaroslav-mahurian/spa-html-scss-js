@@ -1,0 +1,20 @@
+.procedures {
+    padding: 140px 0;
+}
+
+.procedures__cards {
+    margin-top: 95px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    &--procedures {
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

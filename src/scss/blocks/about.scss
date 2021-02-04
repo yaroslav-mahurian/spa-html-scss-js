@@ -1,0 +1,25 @@
+.about {
+    padding-top: 140px;
+    background: url(../img/about/bg-pink-flower.png) 95% 50% no-repeat,
+    url(../img/about/bg-red-flower.png) 13% 0% no-repeat;
+    text-align: center;
+}
+
+.about__logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.about__header {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #888888;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about__content {
+    margin-bottom: 70px;
+}

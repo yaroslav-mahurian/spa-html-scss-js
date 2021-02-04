@@ -1,0 +1,74 @@
+.card {
+    width: 360px;
+    padding: 20px 20px 50px 20px;
+
+    border: 1px solid #e3e6ea;
+    text-align: center;
+
+    transition: box-shadow .1s linear;
+
+    &:hover {
+        box-shadow: 0 15px 40px rgba(4, 10, 50, 0.1);
+    }
+    
+    &--blog {
+        padding-bottom: 38px;
+    }
+}
+
+.card__title {
+    margin-top: 40px;
+    color: #263a41;
+    font-family: Rufina;
+    font-size: 22px;
+    font-weight: 700;
+
+    &--blog {
+        margin-top: 22px;
+    }
+}
+
+.card_desc {
+    margin-top: 30px;
+    margin-bottom: 45px;
+
+    line-height: 27px;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+
+    &--blog {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+.card__data {
+    margin-top: 36px;
+}
+
+.card__category {
+    padding-right: 11px;
+    margin-right: 11px;
+
+    color: #888888;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    border-right: 1px solid #888888;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.card__date {
+    display: inline;
+    color: #888888;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
